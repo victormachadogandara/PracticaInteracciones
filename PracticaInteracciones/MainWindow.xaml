@@ -1,0 +1,20 @@
+﻿<Window x:Class="PracticaSlider.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticaSlider"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <TextBlock Margin="20,5,20,0">Cuenta</TextBlock>
+        <TextBox Name="txtCuenta" Margin="20,5,20,0"  Width="200px"></TextBox>
+        <Slider ValueChanged="sldPorcentaje_ValueChanged" Name="sldPorcentaje" Margin="20,5,20,0" Maximum="25"></Slider>
+        <TextBlock Name="lbPorcntaje" Margin="20,5,20,0"> 0%</TextBlock>
+        <TextBlock  Text="Total con propina"></TextBlock>
+        <TextBlock  Name="Totalconpropina" Margin="10,0"></TextBlock>
+
+
+
+    </StackPanel>
+</Window>
